@@ -1,0 +1,23 @@
+==================================================
+Changes from 2012-02-28 00:00:00 +0000 to present.
+==================================================
+
+------------------------------------------
+version 0.001 at 2013-02-27 03:38:14 +0000
+------------------------------------------
+
+  Change: 0c72b9fb64445d61120f6b4378c0c73384bbe494
+  Author: Steve Nolte <iam@stevenolte.com>
+  Date : 2013-02-26 21:37:15 +0000
+
+    Add README from POD 
+
+  Change: 510769d36825bddeb2324d70bde1787fda8ee34f
+  Author: Steve Nolte <iam@stevenolte.com>
+  Date : 2013-02-26 21:16:17 +0000
+
+    Initial commit 
+
+================
+End of releases.
+================
