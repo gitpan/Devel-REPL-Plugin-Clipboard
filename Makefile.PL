@@ -27,11 +27,10 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "Clipboard" => 0,
     "Devel::REPL::Plugin" => 0,
-    "MooseX::AttributeHelpers::Collection::Array" => 0,
     "Term::ANSIColor" => "2.01",
     "namespace::autoclean" => 0
   },
-  "VERSION" => "0.002",
+  "VERSION" => "0.003",
   "test" => {
     "TESTS" => "t/*.t"
   }

@@ -19,9 +19,8 @@ name: Devel-REPL-Plugin-Clipboard
 requires:
   Clipboard: 0
   Devel::REPL::Plugin: 0
-  MooseX::AttributeHelpers::Collection::Array: 0
   Term::ANSIColor: 2.01
   namespace::autoclean: 0
 resources:
   repository: git://github.com/mcsnolte/Devel-REPL-Plugin-Clipboard.git
-version: 0.002
+version: 0.003

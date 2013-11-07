@@ -4,7 +4,6 @@ package Devel::REPL::Plugin::Clipboard;
 
 use Devel::REPL::Plugin;
 use namespace::autoclean;
-use MooseX::AttributeHelpers::Collection::Array;
 use Clipboard;
 use Term::ANSIColor 2.01 qw(colorstrip);
 
@@ -61,7 +60,7 @@ Devel::REPL::Plugin::Clipboard - #clip output to clipboard
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 COMMANDS
 
