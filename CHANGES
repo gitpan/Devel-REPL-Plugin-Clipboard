@@ -1,9 +1,31 @@
 ==================================================
-Changes from 2012-02-28 00:00:00 +0000 to present.
+Changes from 2012-11-07 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.001 at 2013-02-27 03:38:14 +0000
+version 0.002 at 2013-11-07 18:57:57 +0000
+------------------------------------------
+
+  Change: facf75293b3e4b09e643204b39502a00871e8b29
+  Author: Steve Nolte <iam@stevenolte.com>
+  Date : 2013-11-07 12:57:46 +0000
+
+    Ignore README since generated 
+
+  Change: e4479db72eb4620676df13a1e7eb9aaf1632b652
+  Author: Steve Nolte <iam@stevenolte.com>
+  Date : 2013-11-07 12:53:18 +0000
+
+    Avoid warning for join of undef value 
+
+  Change: e916a8d057be22fa060e364561086a43cac23bb7
+  Author: Steve Nolte <iam@stevenolte.com>
+  Date : 2013-11-07 12:48:46 +0000
+
+    Use Term::ANSIColor to do colorstrip 
+
+------------------------------------------
+version 0.001 at 2013-02-27 03:37:15 +0000
 ------------------------------------------
 
   Change: 0c72b9fb64445d61120f6b4378c0c73384bbe494

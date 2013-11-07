@@ -6,6 +6,7 @@ use Devel::REPL::Plugin;
 use namespace::autoclean;
 use MooseX::AttributeHelpers::Collection::Array;
 use Clipboard;
+use Term::ANSIColor 2.01 qw(colorstrip);
 
 
 sub BEFORE_PLUGIN {
@@ -33,11 +34,9 @@ around 'format_result' => sub {
 		$ret[0] = $self->$orig(@_);
 	}
 
-	my $output = join( "\n", @ret );
-
 	# Remove any color control characters that plugins like
 	# Data::Printer may have added
-	$output =~ s/\e\[?.*?[\@-~]//g;
+	my $output = colorstrip( join( "\n", @ret // () ) );
 
 	$self->last_output($output);
 
@@ -62,7 +61,7 @@ Devel::REPL::Plugin::Clipboard - #clip output to clipboard
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 COMMANDS
 
