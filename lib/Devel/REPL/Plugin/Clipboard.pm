@@ -35,7 +35,7 @@ around 'format_result' => sub {
 
 	# Remove any color control characters that plugins like
 	# Data::Printer may have added
-	my $output = colorstrip( join( "\n", @ret // () ) );
+	my $output = colorstrip( join( "\n", map { $_ // '' } @ret ) );
 
 	$self->last_output($output);
 
@@ -60,7 +60,7 @@ Devel::REPL::Plugin::Clipboard - #clip output to clipboard
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 COMMANDS
 

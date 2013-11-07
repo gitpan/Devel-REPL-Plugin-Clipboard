@@ -3,7 +3,25 @@ Changes from 2012-11-07 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.003 at 2013-11-07 19:11:41 +0000
+version 0.004 at 2013-11-07 19:35:43 +0000
+------------------------------------------
+
+  Change: 7cceeae70862b731d02d36fe116d6885f0d7eaa8
+  Author: Steve Nolte <iam@stevenolte.com>
+  Date : 2013-11-07 13:35:17 +0000
+
+    Bump version 
+
+  Change: 9808db9437db1dcfb3d229078f9138c734830cfd
+  Author: Steve Nolte <iam@stevenolte.com>
+  Date : 2013-11-07 13:34:09 +0000
+
+    Proper fix for undef values in join
+
+    Previous fix was // on the array, instead need to check each element. 
+
+------------------------------------------
+version 0.003 at 2013-11-07 19:11:22 +0000
 ------------------------------------------
 
   Change: 13cdc300af728ba75e3d81d9301b680ca4f11e48
